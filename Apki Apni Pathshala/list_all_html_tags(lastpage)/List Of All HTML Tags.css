@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    margin: 0%;
+}
+header{
+    border: black 4px solid;
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(17, 143,158);
+    /* greenish background */
+color: #edf1f2;
+/* white  text color */
+}
+header h1{
+    font-size: 40px;
+}
+body{
+    color: aliceblue;
+    background:#111827;
+}
+
+footer{
+    overflow: hidden;
+    background-color: #333;
+  }
+  footer a{
+    display: block;
+    color: #edf1f2;
+    text-decoration: none;
+    padding: 14px;
+    float: left; 
+  
+  font-size: larger;}
+  
+  
+    footer{background-color: #333;
+        /* grey color */
+        overflow: hidden;}
+        footer a{
+            display: block;
+            color: #edf1f2;
+            text-decoration: none;
+            padding: 14px;
+            float: left;   
+        }
+        footer a:hover{color: #edf1f2; 
+        background-color: brown;}
+  
+ 
+          /* For next page*/ 
+          .button {
+            width: 120px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 12px;
+            cursor: pointer;
+            border: 3px solid rgb(255, 239, 94);
+            background-color: rgb(255, 239, 94);
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.137);
+            margin-left: auto;
+            margin-right: auto;
+          }
+          
+          .text {
+            width: 70%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(27, 27, 27);
+            color: white;
+          }
+          
+          .arrow path {
+            fill: rgb(19, 19, 19);
+          }
+          
+          .button:hover .arrow {
+            animation: slide-in-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          }
+          
+          @keyframes slide-in-left {
+            0% {
+              transform: translateX(-8px);
+              opacity: 0;
+            }
+          
+            100% {
+              transform: translateX(0px);
+              opacity: 1;
+            }
+          }
+          
+          .button:active {
+            transform: scale(0.97);
+          }
+          /* for preview page */
+        
+        .button {
+            width: 120px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 12px;
+            cursor: pointer;
+            border: 3px solid rgb(255, 239, 94);
+            background-color: rgb(255, 239, 94);
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.137);
+          }
+          
+          .text {
+            width: 70%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(27, 27, 27);
+            color: white;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          
+a{
+  text-decoration: none;
+}
+          .arrow path {
+            fill: rgb(19, 19, 19);
+          }
+          
+          .button:hover .arrow {
+            animation: slide-in-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          }
+          
+          @keyframes slide-in-left {
+            0% {
+              transform: translateX(-8px);
+              opacity: 0;
+            }
+          
+            100% {
+              transform: translateX(0px);
+              opacity: 1;
+            }
+          }
+          
+          .button:active {
+            transform: scale(0.97);
+          }
